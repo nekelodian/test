@@ -1,14 +1,3 @@
-<?php
-  $host = 'localhost';
-  $db_name = 'users';
-  $db_id = 'root';
-  $db_pw = '111111';
-  $db_conn = mysqli_connect($host, $db_id, $db_pw, $db_name);
-?>
-<?php
-  error_reporting( E_ALL );
-  ini_set( "display_errors", 1 );
-?>
 
 <html>
 <head>
@@ -27,7 +16,7 @@
 <p>
 Please login with your account.
 </p>
-<form  action="login_form.php" method="GET">
+<form  action="index.html" method="GET">
   <div class="input">
     User ID : <input name="id"><br>
     password : <input name="pw"><br><br>
